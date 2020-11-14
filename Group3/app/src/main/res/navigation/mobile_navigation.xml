@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.notemanagementsystem.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.notemanagementsystem.ui.gallery.GalleryFragment"
+        android:label="@string/Category"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.notemanagementsystem.ui.slideshow.SlideshowFragment"
+        android:label="@string/Priority"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_status"
+        android:name="com.example.notemanagementsystem.ui.Status.StatusFragment"
+        android:label="@string/Status"
+        tools:layout="@layout/status_fragment" />
+
+    <fragment
+        android:id="@+id/nav_note"
+        android:name="com.example.notemanagementsystem.ui.note.NoteFragment"
+        android:label="@string/Note"
+        tools:layout="@layout/note_fragment" />
+
+    <fragment
+        android:id="@+id/nav_edit_profile"
+        android:name="com.example.notemanagementsystem.ui.editProfile.EditProfileFragment"
+        android:label="@string/Edit_profile"
+        tools:layout="@layout/edit_profile_fragment" />
+
+    <fragment
+        android:id="@+id/nav_change_password"
+        android:name="com.example.notemanagementsystem.ui.changePassword.ChangePasswordFragment"
+        android:label="@string/Change_pass"
+        tools:layout="@layout/change_password_fragment" />
+
+</navigation>
